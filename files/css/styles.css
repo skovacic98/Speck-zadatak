@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+.photo{
+    border-radius: 10px;
+    width: 500px;
+    height: 520px;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.personal-section > h1{
+    position: relative;
+    text-align: justify;
+    font-style: normal;
+    white-space: nowrap;
+    color: white;
+    font-family: Asap;
+    left: 20px;
+    top: 60px;
+}
+.personal-section > h3{
+    position: relative;
+    font-style: italic;
+    white-space: nowrap;
+    color: white;
+    font-family: Asap;
+    left: -170px;
+    top: 110px;
+}
+
+.personal-section > p{
+    font-family: Asap;
+    color: white;
+    position: relative;
+    top: 170px;
+    left: -250px;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.personal-section
+{
+    display: flex;
+    height: 65vh;
+    background: #101113;
+    box-shadow: 2px 4px 8px 0 rgba(34, 34, 34, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.my-tech
+{
+    height: 35vh;
+    background: #63807b;
+}
+
+.my-tech > h1
+{
+    font-family: Asap;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box {
+    margin-left: 15px;
+    border-radius: 20px;
+    width: 300px;
+    float: left;
+    box-shadow: 10px 10px 30px black;
+    overflow: hidden;
+}
+
+.box:hover{
+    cursor: pointer;
+    background: black;
+}
+
+.box > img {
+    height: 230px;
+}
